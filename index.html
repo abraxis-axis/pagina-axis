@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Axis — Páginas web y apps con AppSheet para tu empresa</title>
+    <meta name="description"
+        content="Diseñamos páginas web y aplicaciones con AppSheet para pymes de México. Digitaliza tu negocio con procesos a la medida: agenda de citas, inventario, automatización y más.">
+
+    <!-- Open Graph / WhatsApp / redes sociales -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Axis — Páginas web y apps con AppSheet">
+    <meta property="og:description"
+        content="Conectamos procesos. Impulsamos resultados. Páginas web y aplicaciones a la medida para pymes de México.">
+    <meta property="og:url" content="https://axis-ab.com">
+    <meta property="og:locale" content="es_MX">
+    <meta property="og:image" content="https://axis-ab.com/og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Axis — Páginas web y apps con AppSheet">
+    <meta name="twitter:description"
+        content="Conectamos procesos. Impulsamos resultados. Páginas web y aplicaciones a la medida para pymes de México.">
+    <meta name="twitter:image" content="https://axis-ab.com/og-image.png">
+    <link rel="icon" type="image/png" href="https://lh3.googleusercontent.com/d/1zuGdB5Ao36zX_TMwZbbzqVprRujnsIG2">
+    <meta name="theme-color" content="#2E7DD1">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+
+</head>
+
+<body>
+
+    <header>
+        <div class="wrap">
+            <a href="#" class="logo" aria-label="Axis — inicio">
+                <img src="https://lh3.googleusercontent.com/d/1ZEVcQQGJwuTD13PKdKsW38cdsa1dEgAi" alt="Logo Axis"
+                    class="logo-img">
+            </a>
+            <nav aria-label="Navegación principal">
+                <a href="#servicios">Servicios</a>
+                <a href="#como-funciona">¿Cómo funciona?</a>
+                <a href="#precios">Precios</a>
+                <a href="#nosotros">Nosotros</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
+            <a class="btn btn-primary" href="https://wa.me/523112794209" target="_blank"
+                rel="noopener noreferrer">Escríbenos</a>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Abrir menú" aria-expanded="false"
+                aria-controls="nav-menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+        <nav class="nav-mobile" id="nav-menu" aria-label="Navegación móvil">
+            <a href="#servicios">Servicios</a>
+            <a href="#como-funciona">¿Cómo funciona?</a>
+            <a href="#precios">Precios</a>
+            <a href="#nosotros">Nosotros</a>
+            <a href="#contacto">Contacto</a>
+            <a class="btn btn-primary" href="https://wa.me/523112794209" target="_blank"
+                rel="noopener noreferrer">Escríbenos</a>
+        </nav>
+    </header>
+
+    <section class="hero" aria-labelledby="hero-heading">
+        <div class="wrap">
+            <div>
+                <div class="eyebrow hero-eyebrow">Desarrollo web &amp; apps con AppSheet</div>
+                <h1 id="hero-heading">Conectamos <em>procesos</em>.<br>Impulsamos resultados.</h1>
+                <p class="lead">Diseñamos páginas web y aplicaciones con AppSheet para que las pymes de México dejen
+                    atrás el papel, las hojas de cálculo sueltas y los procesos manuales — todo en un solo lugar, hecho
+                    a la medida de tu negocio.</p>
+                <div class="hero-actions">
+                    <a class="btn btn-accent" href="#ejemplos">Ver ejemplos en vivo</a>
+                    <a class="btn btn-ghost" href="#contacto">Cotizar mi proyecto</a>
+                </div>
+            </div>
+            <div class="hero-canvas-wrap" aria-hidden="true">
+                <canvas id="network"></canvas>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicios" aria-labelledby="servicios-heading">
+        <div class="wrap">
+            <div class="sec-head reveal">
+                <div class="eyebrow">Servicios</div>
+                <h2 id="servicios-heading">Todo lo que tu empresa necesita para operar en digital</h2>
+                <p>De la primera impresión con tu página web hasta la app que ordena tu operación diaria.</p>
+            </div>
+            <div class="services-grid" id="services-grid"></div>
+        </div>
+    </section>
+
+    <!-- ¿CÓMO FUNCIONA? -->
+    <section id="como-funciona" aria-labelledby="proceso-heading">
+        <div class="wrap">
+            <div class="sec-head reveal">
+                <div class="eyebrow">Proceso</div>
+                <h2 id="proceso-heading">Simple, claro y sin sorpresas</h2>
+                <p>Así trabajamos contigo, de la primera llamada hasta el lanzamiento.</p>
+            </div>
+            <div class="steps-grid">
+                <div class="step-card reveal" style="--d:0ms">
+                    <div class="step-num">01</div>
+                    <div class="step-icon" aria-hidden="true">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <path
+                                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.36 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.11 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.09 8.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21 16z" />
+                        </svg>
+                    </div>
+                    <h3>Plática inicial</h3>
+                    <p>Nos cuentas de tu negocio, tus procesos y lo que quieres lograr. Sin costo ni compromiso.</p>
+                </div>
+                <div class="step-card reveal" style="--d:100ms">
+                    <div class="step-num">02</div>
+                    <div class="step-icon" aria-hidden="true">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                            <polyline points="14 2 14 8 20 8" />
+                            <line x1="16" y1="13" x2="8" y2="13" />
+                            <line x1="16" y1="17" x2="8" y2="17" />
+                            <polyline points="10 9 9 9 8 9" />
+                        </svg>
+                    </div>
+                    <h3>Propuesta a medida</h3>
+                    <p>Te enviamos un plan detallado con alcance, tiempos y costo. Sin letra chica.</p>
+                </div>
+                <div class="step-card reveal" style="--d:200ms">
+                    <div class="step-num">03</div>
+                    <div class="step-icon" aria-hidden="true">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="3" />
+                            <path d="M19.07 4.93a10 10 0 0 1 0 14.14M4.93 4.93a10 10 0 0 0 0 14.14" />
+                            <path d="M15.54 8.46a5 5 0 0 1 0 7.07M8.46 8.46a5 5 0 0 0 0 7.07" />
+                        </svg>
+                    </div>
+                    <h3>Diseño y desarrollo</h3>
+                    <p>Construimos tu solución con revisiones en cada etapa para que quede exactamente como lo imaginas.
+                    </p>
+                </div>
+                <div class="step-card reveal" style="--d:300ms">
+                    <div class="step-num">04</div>
+                    <div class="step-icon" aria-hidden="true">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="22" y1="2" x2="11" y2="13" />
+                            <polygon points="22 2 15 22 11 13 2 9 22 2" />
+                        </svg>
+                    </div>
+                    <h3>Entrega y soporte</h3>
+                    <p>Lanzamos juntos y te acompañamos durante los primeros meses para que todo funcione perfecto.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="ejemplos" class="ejemplos-section" aria-labelledby="ejemplos-heading">
+        <div class="wrap">
+            <div class="sec-head">
+                <div class="eyebrow">Ejemplos</div>
+                <h2 id="ejemplos-heading">Así se ven — y así funcionan</h2>
+                <p>Prueba tú mismo tres muestras reales de lo que podemos construir para tu empresa: una página
+                    informativa, una agenda de citas y una app de inventario tipo AppSheet.</p>
+            </div>
+
+            <div class="demo-tabs" role="tablist" aria-label="Demos interactivos">
+                <button class="tab-btn active" role="tab" aria-selected="true" aria-controls="d1" id="tab-d1"
+                    data-tab="d1">Página informativa</button>
+                <button class="tab-btn" role="tab" aria-selected="false" aria-controls="d2" id="tab-d2"
+                    data-tab="d2">Agenda de citas</button>
+                <button class="tab-btn" role="tab" aria-selected="false" aria-controls="d3" id="tab-d3"
+                    data-tab="d3">App de inventario</button>
+            </div>
+
+            <div class="demo-frame">
+                <div class="demo-chrome">
+                    <span class="dot" aria-hidden="true"></span><span class="dot" aria-hidden="true"></span><span
+                        class="dot" aria-hidden="true"></span>
+                    <span class="demo-url" id="demo-url">tallertorres.mx</span>
+                    <div class="view-toggle" id="view-toggle" aria-label="Cambiar vista">
+                        <button data-view="desktop" class="active" title="Vista escritorio"
+                            aria-pressed="true">▭</button>
+                        <button data-view="mobile" title="Vista móvil" aria-pressed="false">▯</button>
+                    </div>
+                </div>
+
+                <!-- DEMO 1 -->
+                <div class="demo-panel active" id="d1" role="tabpanel" aria-labelledby="tab-d1">
+                    <div class="d1-wrapper" id="d1-wrapper">
+                        <div class="d1-hero">
+                            <div>
+                                <p class="d1-title">Taller Mecánico Torres</p>
+                                <p>Servicio automotriz en Tepic — más de 12 años cuidando tu vehículo. Agenda tu cita en
+                                    línea.</p>
+                            </div>
+                        </div>
+                        <div class="d1-services">
+                            <div><strong>Diagnóstico</strong>Revisión computarizada completa antes de cualquier
+                                reparación.</div>
+                            <div><strong>Frenos y suspensión</strong>Cambio y ajuste con refacciones originales.</div>
+                            <div><strong>Servicio mayor</strong>Afinación, aceite y filtros en menos de 2 horas.</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- DEMO 2 -->
+                <div class="demo-panel" id="d2" role="tabpanel" aria-labelledby="tab-d2">
+                    <div class="d2-body">
+                        <div>
+                            <div class="field">
+                                <label for="svc-select">Servicio</label>
+                                <select id="svc-select">
+                                    <option>Consulta general</option>
+                                    <option>Limpieza dental</option>
+                                    <option>Valoración inicial</option>
+                                </select>
+                            </div>
+                            <div class="field">
+                                <label for="date-select">Fecha</label>
+                                <input type="date" id="date-select">
+                            </div>
+                            <div class="field">
+                                <label>Horario disponible</label>
+                                <div class="slots" id="slots">
+                                    <div class="slot" role="button" tabindex="0">9:00</div>
+                                    <div class="slot" role="button" tabindex="0">10:30</div>
+                                    <div class="slot" role="button" tabindex="0">12:00</div>
+                                    <div class="slot" role="button" tabindex="0">16:00</div>
+                                    <div class="slot" role="button" tabindex="0">17:30</div>
+                                </div>
+                            </div>
+                            <button class="btn btn-primary btn-sm" id="confirm-btn">Confirmar cita</button>
+                        </div>
+                        <div class="d2-summary">
+                            <p class="d2-summary-title">Resumen de tu cita</p>
+                            <div class="row"><span>Servicio</span><b id="sum-svc">Consulta general</b></div>
+                            <div class="row"><span>Fecha</span><b id="sum-date">—</b></div>
+                            <div class="row"><span>Hora</span><b id="sum-time">—</b></div>
+                            <div class="d2-confirm" id="d2-confirm" role="status">✓ Cita confirmada. Te llegará un
+                                recordatorio
+                                automático un día antes.</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- DEMO 3 -->
+                <div class="demo-panel" id="d3" role="tabpanel" aria-labelledby="tab-d3">
+                    <div class="d3-body">
+                        <div class="d3-toolbar">
+                            <p class="d3-title">Inventario — Refaccionaria Axis Demo</p>
+                            <span class="mono d3-sync">sincronizado hace 2 min</span>
+                        </div>
+                        <table class="inv" id="inv-table">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Producto</th>
+                                    <th scope="col">Cantidad</th>
+                                    <th scope="col">Estado</th>
+                                    <th scope="col"><span class="sr-only">Acciones</span></th>
+                                </tr>
+                            </thead>
+                            <tbody id="inv-body">
+                                <tr>
+                                    <td>Filtro de aceite</td>
+                                    <td>24</td>
+                                    <td><span class="stock-pill stock-ok">Suficiente</span></td>
+                                    <td><button class="del-btn" aria-label="Eliminar Filtro de aceite">✕</button></td>
+                                </tr>
+                                <tr>
+                                    <td>Balatas delanteras</td>
+                                    <td>3</td>
+                                    <td><span class="stock-pill stock-low">Bajo stock</span></td>
+                                    <td><button class="del-btn" aria-label="Eliminar Balatas delanteras">✕</button></td>
+                                </tr>
+                                <tr>
+                                    <td>Bujías</td>
+                                    <td>40</td>
+                                    <td><span class="stock-pill stock-ok">Suficiente</span></td>
+                                    <td><button class="del-btn" aria-label="Eliminar Bujías">✕</button></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div class="add-row">
+                            <input type="text" name="prod" placeholder="Nombre del producto" id="new-prod"
+                                aria-label="Nombre del producto">
+                            <input type="number" name="qty" placeholder="Cant." id="new-qty" aria-label="Cantidad"
+                                min="0">
+                            <button class="btn btn-primary btn-sm" id="add-btn">+ Agregar producto</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRECIOS -->
+    <section id="precios" aria-labelledby="precios-heading">
+        <div class="wrap">
+            <div class="sec-head reveal">
+                <div class="eyebrow">Precios</div>
+                <h2 id="precios-heading">Invierte en lo que tu negocio necesita</h2>
+                <p>Sin costos ocultos. Propuesta detallada antes de empezar. Siempre a la medida.</p>
+            </div>
+            <div class="pricing-grid">
+
+                <!-- Esencial -->
+                <div class="pricing-card reveal" style="--d:0ms">
+                    <div class="pricing-tier">Esencial</div>
+                    <div class="pricing-price">Desde <strong>$8,000</strong> <span>MXN</span></div>
+                    <p class="pricing-desc">Ideal para empresas que quieren empezar a tener presencia digital
+                        profesional.</p>
+                    <ul class="pricing-features">
+                        <li>Página informativa completa</li>
+                        <li>Diseño responsivo (móvil + desktop)</li>
+                        <li>SEO básico y Open Graph</li>
+                        <li>Formulario de contacto</li>
+                        <li>1 mes de soporte</li>
+                    </ul>
+                    <a href="https://wa.me/523112794209?text=Hola%2C%20me%20interesa%20el%20paquete%20Esencial"
+                        target="_blank" rel="noopener noreferrer" class="btn btn-ghost pricing-btn">Cotizar Esencial</a>
+                </div>
+
+                <!-- Pro -->
+                <div class="pricing-card pricing-featured reveal" style="--d:100ms">
+                    <div class="pricing-badge">Más popular</div>
+                    <div class="pricing-tier">Pro</div>
+                    <div class="pricing-price">Desde <strong>$18,000</strong> <span>MXN</span></div>
+                    <p class="pricing-desc">Para empresas que necesitan tanto presencia digital como una app que ordene
+                        su operación.</p>
+                    <ul class="pricing-features">
+                        <li>Todo lo del plan Esencial</li>
+                        <li>App con AppSheet a la medida</li>
+                        <li>Automatización de notificaciones</li>
+                        <li>Integración web + app</li>
+                        <li>3 meses de soporte</li>
+                    </ul>
+                    <a href="https://wa.me/523112794209?text=Hola%2C%20me%20interesa%20el%20paquete%20Pro"
+                        target="_blank" rel="noopener noreferrer" class="btn btn-primary pricing-btn">Cotizar Pro</a>
+                </div>
+
+                <!-- Personalizado -->
+                <div class="pricing-card reveal" style="--d:200ms">
+                    <div class="pricing-tier">Personalizado</div>
+                    <div class="pricing-price">Cotización <strong>a medida</strong></div>
+                    <p class="pricing-desc">Proyectos complejos con múltiples apps, integraciones avanzadas o soporte
+                        continuo.</p>
+                    <ul class="pricing-features">
+                        <li>Análisis completo de procesos</li>
+                        <li>Múltiples apps y automatizaciones</li>
+                        <li>Integraciones con sistemas actuales</li>
+                        <li>Capacitación al equipo</li>
+                        <li>Soporte mensual continuo</li>
+                    </ul>
+                    <a href="https://wa.me/523112794209?text=Hola%2C%20quisiera%20platicar%20sobre%20un%20proyecto%20personalizado"
+                        target="_blank" rel="noopener noreferrer" class="btn btn-ghost pricing-btn">Platicar del
+                        proyecto</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="nosotros" aria-labelledby="nosotros-heading">
+        <div class="wrap">
+            <div class="about">
+                <div>
+                    <div class="eyebrow" style="color:var(--blue-300)"><span></span>Nosotros</div>
+                    <h2 id="nosotros-heading">Nos apasiona ayudar a otras empresas a innovar</h2>
+                    <p>En Axis nos mueve ayudar a otras empresas a innovar, tanto en sus procesos internos como en la
+                        manera en que consiguen y conservan clientes. Creemos que cada negocio merece que la gente lo
+                        encuentre, entienda sus servicios y confíe en él desde el primer clic.</p>
+                    <p>Somos una empresa responsable y formal, y trabajamos con un solo objetivo detrás de cada
+                        proyecto: que el cliente quede satisfecho.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="about-stat">
+                        <div class="k">Con base en Tepic, Nayarit</div>
+                        <div class="v">Atendemos empresas en toda la república</div>
+                    </div>
+                    <div class="about-stat">
+                        <div class="k">Páginas web + apps con AppSheet</div>
+                        <div class="v">Un solo equipo para tu presencia digital y tu operación</div>
+                    </div>
+                    <div class="about-stat">
+                        <div class="k">Procesos a la medida</div>
+                        <div class="v">Cada solución se diseña según cómo trabaja tu negocio</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="contacto-section" aria-labelledby="contacto-heading">
+        <div class="wrap">
+            <div class="sec-head">
+                <div class="eyebrow">Contacto</div>
+                <h2 id="contacto-heading">Cuéntanos de tu negocio</h2>
+                <p>Escríbenos y platicamos cómo se vería tu página o tu app.</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-panel dark">
+                    <div class="contact-item">
+                        <div>
+                            <span class="lbl">Teléfono / WhatsApp</span>
+                            <span class="val"><a href="https://wa.me/523112794209" target="_blank"
+                                    rel="noopener noreferrer">311
+                                    279 4209</a></span>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div>
+                            <span class="lbl">Correo</span>
+                            <span class="val"><a href="mailto:abraxis@axis-ab.com">abraxis@axis-ab.com</a></span>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div>
+                            <span class="lbl">Ubicación</span>
+                            <span class="val">Tepic, Nayarit — servicio en toda la república</span>
+                        </div>
+                    </div>
+                    <p class="contact-response">Respondemos por WhatsApp o correo, normalmente el mismo día hábil.</p>
+                </div>
+                <div class="contact-panel">
+                    <form class="contact-form" id="contact-form" novalidate>
+                        <div class="field">
+                            <label for="contact-nombre">Nombre</label>
+                            <input type="text" id="contact-nombre" name="nombre" placeholder="Tu nombre"
+                                autocomplete="name">
+                        </div>
+                        <div class="field">
+                            <label for="contact-empresa">Empresa</label>
+                            <input type="text" id="contact-empresa" name="empresa" placeholder="Nombre de tu empresa"
+                                autocomplete="organization">
+                        </div>
+                        <div class="field">
+                            <label for="contact-necesidad">¿Qué necesitas?</label>
+                            <select id="contact-necesidad" name="necesidad">
+                                <option value="Página informativa">Página informativa</option>
+                                <option value="App con AppSheet">App con AppSheet</option>
+                                <option value="Automatización de procesos">Automatización de procesos</option>
+                                <option value="Agenda de citas">Agenda de citas</option>
+                                <option value="Otro">Otro</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full" id="contact-submit">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                                <path
+                                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z" />
+                                <path
+                                    d="M5.339 18.674l.43-1.578C4.548 15.96 4 14.067 4 12.078 4 6.523 8.523 2 14.078 2c5.556 0 10.078 4.523 10.078 10.078 0 5.556-4.522 10.078-10.078 10.078-1.74 0-3.378-.445-4.806-1.226L5.339 18.674z" />
+                            </svg>
+                            Enviar por WhatsApp
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="wrap">
+            <a href="#" class="logo" aria-label="Axis — volver arriba">
+                <img src="https://lh3.googleusercontent.com/d/1ZEVcQQGJwuTD13PKdKsW38cdsa1dEgAi" alt="Logo Axis"
+                    class="logo-img logo-img--sm">
+            </a>
+            <span class="fine">© 2026 Axis · Tepic, Nayarit · Conectamos procesos. Impulsamos resultados.</span>
+        </div>
+    </footer>
+
+    <!-- Botón flotante WhatsApp -->
+    <a href="https://wa.me/523112794209" class="wa-float" id="wa-float" target="_blank" rel="noopener noreferrer"
+        aria-label="Chatear por WhatsApp">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path
+                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z" />
+            <path
+                d="M5.339 18.674l.43-1.578C4.548 15.96 4 14.067 4 12.078 4 6.523 8.523 2 14.078 2c5.556 0 10.078 4.523 10.078 10.078 0 5.556-4.522 10.078-10.078 10.078-1.74 0-3.378-.445-4.806-1.226L5.339 18.674z" />
+        </svg>
+        <span class="wa-tooltip">Escríbenos ahora</span>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
